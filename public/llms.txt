@@ -1,0 +1,70 @@
+# YBM Studio — Generative Engine Optimization Map
+
+> YBM Studio is a professional music recording studio owned and operated by Yehuda Ben Moshe, a recording technician with over 13 years of experience in recording, music arrangements, and vocal production. The studio brand carries a bold, modern, and creative identity reflected in its striking logo colors — electric neon pink and sky blue blended in an ombre style — evoking a vibrant, artistic, and high-energy atmosphere that speaks to musicians and artists seeking top-tier production quality.
+
+---
+
+## Pages
+
+### בית
+https://ybm-studio-2a3e50f6.zappy5.app
+YBM Studio מבית יהודה בן משה – אולפן הקלטות מוביל עם 13 שנות ניסיון בהפקה ועיבודים מוזיקליים. צליל מושלם באווירה יצירתית ומלאת אנרגיה. קבעו סשן עכשיו!
+
+## Legal & Policy
+
+### Privacy Policy
+https://ybm-studio-2a3e50f6.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://ybm-studio-2a3e50f6.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://ybm-studio-2a3e50f6.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://ybm-studio-2a3e50f6.zappy5.app
+- Endpoint: https://ybm-studio-2a3e50f6.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About YBM Studio
+YBM Studio is a professional music recording studio owned and operated by Yehuda Ben Moshe, a recording technician with over 13 years of experience in recording, music arrangements, and vocal production. The studio brand carries a bold, modern, and creative identity reflected in its striking logo colors — electric neon pink and sky blue blended in an ombre style — evoking a vibrant, artistic, and high-energy atmosphere that speaks to musicians and artists seeking top-tier production quality.
+
+## Target Audience
+- מוזיקאים עצמאיים
+- מפיקי מוזיקה
+- פודקאסטרים
+- להקות מקליטות אלבום
+- זמרים
+- הקלטות בר מצוה
+- אולפן הקלטות לאירועים
+
+## Industry
+Music Recording Studio
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://ybm-studio-2a3e50f6.zappy5.app/sitemap.xml
+- Robots: https://ybm-studio-2a3e50f6.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://ybm-studio-2a3e50f6.zappy5.app/llms-full.txt
