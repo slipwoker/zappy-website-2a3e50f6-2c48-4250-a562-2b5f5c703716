@@ -2,13 +2,13 @@
 
 YBM Studio is a professional music recording studio owned and operated by Yehuda Ben Moshe, a recording technician with over 13 years of experience in recording, music arrangements, and vocal production. The studio brand carries a bold, modern, and creative identity reflected in its striking logo colors — electric neon pink and sky blue blended in an ombre style — evoking a vibrant, artistic, and high-energy atmosphere that speaks to musicians and artists seeking top-tier production quality.
 
-Source: https://ybm-studio-2a3e50f6.zappy5.app
+Source: https://example.com
 
 ---
 
 ## הקליטו להיט באולפן מקצועי — YBM Studio
 
-URL: https://ybm-studio-2a3e50f6.zappy5.app
+URL: https://example.com
 Description: YBM Studio מבית יהודה בן משה – אולפן הקלטות מוביל עם 13 שנות ניסיון בהפקה ועיבודים מוזיקליים. צליל מושלם באווירה יצירתית ומלאת אנרגיה. קבעו סשן עכשיו!
 
 הקליטו להיט באולפן מקצועי — YBM Studio
@@ -577,7 +577,7 @@ YBM Studio תוכנן לפרטים הקטנים ביותר – מרגע הכני
 
 ## מדיניות פרטיות
 
-URL: https://ybm-studio-2a3e50f6.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -841,7 +841,7 @@ YBM Studio ("החברה", "אנו", "שלנו") מחויבת להגן על פר�
 
 ## הצהרת נגישות
 
-URL: https://ybm-studio-2a3e50f6.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1114,7 +1114,7 @@ YBM Studio מחויבת להנגיש את השירותים לכלל הציבור
 
 ## תנאי שימוש
 
-URL: https://ybm-studio-2a3e50f6.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
