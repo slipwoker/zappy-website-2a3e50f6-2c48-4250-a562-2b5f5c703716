@@ -1318,6 +1318,238 @@
   }
 }
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-showcase-section {
+    background: #0A0A0F;
+    color: var(--text-light);
+    position: relative;
+    overflow: hidden;
+    padding: 80px 16px 100px;
+    direction: rtl;
+}
+
+.index-showcase-section .showcase-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Section Header */
+.index-showcase-section .showcase-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.index-showcase-section .showcase-title {
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    color: #FFFFFF;
+    margin: 0 0 16px 0;
+    font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+}
+
+.index-showcase-section .showcase-subtitle {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #AAAABC;
+    margin: 0 auto;
+    max-width: 600px;
+    font-family: 'Noto Sans Hebrew', 'Assistant', Arial, sans-serif;
+}
+
+/* Masonry Grid */
+.index-showcase-section .showcase-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 16px;
+    direction: rtl;
+}
+
+/* Grid Item Placement */
+.index-showcase-section .showcase-item-vertical {
+    grid-row: span 2;
+    grid-column: 1;
+}
+
+.index-showcase-section .showcase-item-horizontal {
+    grid-column: 2;
+}
+
+.index-showcase-section .showcase-item-wide {
+    grid-column: 2 / span 2;
+}
+
+/* Showcase Item Base */
+.index-showcase-section .showcase-item {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #1A1A25;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.index-showcase-section .showcase-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 40px rgba(233,30,140,0.35);
+}
+
+.index-showcase-section .showcase-image-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.index-showcase-section .showcase-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.index-showcase-section .showcase-item:hover .showcase-image-wrapper img {
+    transform: scale(1.05);
+}
+
+/* Overlay Caption */
+.index-showcase-section .showcase-overlay {
+    position: absolute;
+    bottom: 0;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    padding: 24px 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 60%, transparent 100%);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+}
+
+.index-showcase-section .showcase-item:hover .showcase-overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.index-showcase-section .showcase-caption {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: start;
+    font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+/* Neon Waveform Decoration */
+.index-showcase-section .showcase-waveform {
+    position: absolute;
+    bottom: 0;
+    inset-inline-start: 0;
+    width: 100%;
+    height: 60px;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.35;
+}
+
+.index-showcase-section .showcase-waveform svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .index-showcase-section {
+        padding: 60px 16px 80px;
+    }
+
+    .index-showcase-section .showcase-header {
+        margin-bottom: 32px;
+    }
+
+    .index-showcase-section .showcase-title {
+        font-size: 1.8rem;
+    }
+
+    .index-showcase-section .showcase-subtitle {
+        font-size: 0.95rem;
+        padding: 0 8px;
+    }
+
+    .index-showcase-section .showcase-grid {
+        grid-template-columns: 1fr 1fr !important;
+        gap: 12px;
+    }
+
+    .index-showcase-section .showcase-item-vertical {
+        grid-row: span 2;
+        grid-column: 1;
+    }
+
+    .index-showcase-section .showcase-item-horizontal {
+        grid-column: 2;
+    }
+
+    .index-showcase-section .showcase-item-wide {
+        grid-column: 1 / span 2;
+    }
+
+    .index-showcase-section .showcase-overlay {
+        opacity: 1;
+        transform: translateY(0);
+        padding: 16px 12px;
+        background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.5) 60%, transparent 100%);
+    }
+
+    .index-showcase-section .showcase-caption {
+        font-size: 0.85rem;
+    }
+
+    .index-showcase-section .showcase-waveform {
+        height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .index-showcase-section .showcase-grid {
+        grid-template-columns: 1fr !important;
+        gap: 12px;
+    }
+
+    .index-showcase-section .showcase-item-vertical {
+        grid-row: auto;
+        grid-column: 1;
+    }
+
+    .index-showcase-section .showcase-item-horizontal {
+        grid-column: 1;
+    }
+
+    .index-showcase-section .showcase-item-wide {
+        grid-column: 1;
+    }
+
+    .index-showcase-section .showcase-item-vertical .showcase-image-wrapper {
+        aspect-ratio: 3/4;
+    }
+
+    .index-showcase-section .showcase-item-horizontal .showcase-image-wrapper,
+    .index-showcase-section .showcase-item-wide .showcase-image-wrapper {
+        aspect-ratio: 3/2;
+    }
+}
+</style>
     <style id="zappy-critical-above-fold-css">
 html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none;margin:0;padding:0}.navbar a,.nav-menu a,#navMenu a,.navbar .nav-links a{color:inherit;text-decoration:none}.navbar .sub-menu,.nav-menu .sub-menu,#navMenu .sub-menu{display:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.zappy-preview-empty-store-cta{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}.zappy-catalog-menu{background:var(--surface-color,var(--surface,linear-gradient(135deg,#f8f9fa 0%,#fff 100%)));border-bottom:1px solid var(--border-color,#e5e7eb);padding:0;position:sticky;top:0;z-index:90}.zappy-catalog-menu[dir=rtl],.zappy-catalog-menu.rtl{direction:rtl}.zappy-catalog-menu[dir=ltr],.zappy-catalog-menu.ltr{direction:ltr}.catalog-menu-container{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 24px;overflow:visible}.catalog-menu-categories,.catalog-menu-list{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.catalog-menu-item{display:inline-flex;align-items:center;padding:8px 16px;font-size:14px;font-weight:500;color:var(--text-color,var(--text,#374151));text-decoration:none;border-radius:20px;white-space:nowrap}.catalog-menu-all{background:var(--primary-color,var(--primary,#111));color:var(--text-light,#fff)!important}.catalog-menu-parent{position:relative;display:inline-flex;align-items:center}.catalog-menu-trigger{display:inline-flex;align-items:center;gap:6px}.catalog-menu-chevron{flex-shrink:0}.catalog-menu-parent>.sub-menu{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden}.hero-section,.index-hero-section{min-height:560px}section[data-hero-type*="fullscreen"]{min-height:100vh}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"],section[data-hero-type*="fullscreen"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
 
@@ -2129,63 +2361,121 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
   <div class="index-benefits-grid-overlay" aria-hidden="true"></div>
 </section>
 
-<section data-band-index="3" id="showcase" class="index-showcase-section" data-layout-spec="בית-showcase" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="5.5s">
+<section class="index-showcase-section" data-layout-spec="בית-showcase" id="showcase">
     <div class="showcase-container">
-        <header class="showcase-header">
-            <h2 class="showcase-heading">האווירה שמאחורי הסאונד</h2>
-            <p class="showcase-subtitle">YBM Studio תוכנן לפרטים הקטנים ביותר – מרגע הכניסה לתא ההקלטות ועד לרגע היציאה עם מאסטר מושלם. כל פינה באולפן מעוצבת להעניק לך מיקוד, יצירתיות ודיוק טכני ברמה הגבוהה ביותר. כאן המוזיקה שלך מקבלת את הבמה שהיא ראויה לה.</p>
-        </header>
-        
-        <div class="showcase-gallery">
-            <div class="gallery-item gallery-item--large">
-                <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-1" data-context="A warmly lit professional vocal booth in a modern music recording studio, showing a large diaphragm condenser microphone on a stand with a pop filter, acoustic foam panels on the walls, and a pair of studio headphones hanging nearby, cinematic composition with shallow depth of field" width="600" height="800" src="/assets/site-image-index-showcase-image-1.webp" alt="תא הקלטות מקצועי עם מיקרופון קונדנסר באולפן YBM" fetchpriority="low">
-                <div class="gallery-caption">
-                    <span class="caption-icon">🎙️</span>
-                    <span>דיוק ווקאלי מושלם</span>
+        <!-- Section Header -->
+        <div class="showcase-header">
+            <h2 class="showcase-title">האווירה בסטודיו</h2>
+            <p class="showcase-subtitle">תמונות מחדר ההקלטות והבקרה של YBM Studio — מקום שבו סאונד הופך ליצירה</p>
+        </div>
+
+        <!-- Masonry Grid -->
+        <div class="showcase-grid">
+            <!-- Item 1: Large Vertical -->
+            <div class="showcase-item showcase-item-vertical">
+                <div class="showcase-image-wrapper">
+                    <img data-context="A dramatic vertical photo inside a professional recording studio control room with glowing neon pink and cyan accent lights, mixing console in the foreground, studio monitors, and acoustic panels on dark walls, cinematic atmosphere" width="600" height="800" src="/assets/ybm-studio-music-recording-studio-section-showcase-index-showcase-image-1.webp" alt="חדר בקרה בסטודיו YBM עם תאורת ניאון ורודה וכחולה" loading="lazy" decoding="async" fetchpriority="low">
+                </div>
+                <div class="showcase-overlay">
+                    <span class="showcase-caption">חדר הבקרה — מיקס ומאסטרינג</span>
                 </div>
             </div>
-            <div class="gallery-item">
-                <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-2" data-context="Close-up shot of high-end studio monitor headphones with a coiled cable resting on a dark wooden surface, soft cyan and pink neon reflections from studio lights creating an artistic atmosphere" width="600" height="400" src="/assets/site-image-index-showcase-image-2.webp" alt="אוזניות אולפן מקצועיות מוארות בתאורת ניאון" fetchpriority="low">
-                <div class="gallery-caption">
-                    <span class="caption-icon">🎧</span>
-                    <span>ניטור מדויק</span>
+
+            <!-- Item 2: Horizontal Top -->
+            <div class="showcase-item showcase-item-horizontal">
+                <div class="showcase-image-wrapper">
+                    <img data-context="A musician singing passionately into a vintage-style condenser microphone inside a vocal booth with warm acoustic foam panels, dim ambient lighting creating an intimate studio vibe" width="600" height="400" src="/assets/ybm-studio-music-recording-studio-section-showcase-index-showcase-image-2.webp" alt="זמר מקליט בתא הקלטות אקוסטי בסטודיו YBM" loading="lazy" decoding="async" fetchpriority="low">
+                </div>
+                <div class="showcase-overlay">
+                    <span class="showcase-caption">תא הקלטות — הפקת שירה מקצועית</span>
                 </div>
             </div>
-            <div class="gallery-item">
-                <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-3" data-context="A sleek digital audio mixing console with illuminated faders and knobs, viewed from a low angle, glowing with subtle cyan and magenta LED backlighting in a darkened control room" width="600" height="400" src="/assets/site-image-index-showcase-image-3.webp" alt="קונסולת מיקסינג דיגיטלית באולפן הקלטות" fetchpriority="low">
-                <div class="gallery-caption">
-                    <span class="caption-icon">🎛️</span>
-                    <span>שליטה מלאה במיקס</span>
+
+            <!-- Item 3: Horizontal Bottom -->
+            <div class="showcase-item showcase-item-horizontal">
+                <div class="showcase-image-wrapper">
+                    <img data-context="Close-up shot of a recording engineer's hands adjusting faders on a modern digital mixing console, colorful LED meters glowing, studio headphones resting nearby, creative tech workspace" width="600" height="400" src="/assets/ybm-studio-music-recording-studio-section-showcase-index-showcase-image-3.webp" alt="טכנאי הקלטה מכוון פיידרים בקונסולת מיקס דיגיטלית" loading="lazy" decoding="async" fetchpriority="low">
+                </div>
+                <div class="showcase-overlay">
+                    <span class="showcase-caption">עבודה על המיקס — דיוק ופרטים</span>
                 </div>
             </div>
-            <div class="gallery-item">
-                <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-4" data-context="Silhouette of a passionate musician performing in a dimly lit recording studio, dramatic backlighting with a subtle neon pink rim light, creating an artistic and high-energy atmosphere" width="600" height="400" src="/assets/site-image-index-showcase-image-4.webp" alt="צללית של אמן מופיע באולפן הקלטות מקצועי" fetchpriority="low">
-                <div class="gallery-caption">
-                    <span class="caption-icon">🎤</span>
-                    <span>אנרגיה יצירתית</span>
+
+            <!-- Item 4: Horizontal Wide -->
+            <div class="showcase-item showcase-item-wide">
+                <div class="showcase-image-wrapper">
+                    <img data-context="Wide-angle shot of the full recording studio space showing both the live room with instruments (guitar, drum kit, keyboard) and the control room through a glass window, professional studio lighting with pink and blue tones" width="900" height="400" src="/assets/ybm-studio-music-recording-studio-section-showcase-index-showcase-image-4.webp" alt="מבט רחב על חלל ההקלטות המלא בסטודיו YBM" loading="lazy" decoding="async" fetchpriority="low">
+                </div>
+                <div class="showcase-overlay">
+                    <span class="showcase-caption">חדר ההקלטות — כלים וסאונד חי</span>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Bottom Divider: Inverted black-to-transparent gradient with neon ombre line -->
-    <div class="showcase-divider-wrapper">
-        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <linearGradient id="showcaseFadeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#F4F1EA" stop-opacity="0"></stop>
-                    <stop offset="100%" stop-color="#111217" stop-opacity="1"></stop>
-                </linearGradient>
-                <linearGradient id="showcaseNeonLine" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stop-color="#00D4AA"></stop>
-                    <stop offset="50%" stop-color="#FFD93D"></stop>
-                    <stop offset="100%" stop-color="#FF6B6B"></stop>
-                </linearGradient>
-            </defs>
-            <!-- Background fade to dark -->
-            <rect x="0" y="0" width="1200" height="80" fill="url(#showcaseFadeGrad)"></rect>
-            <!-- Neon ombre line -->
-            <line x1="0" y1="79" x2="1200" y2="79" stroke="url(#showcaseNeonLine)" stroke-width="2"></line>
+    <!-- Neon Waveform Decorative Bar (Bottom) -->
+    <div class="showcase-waveform" aria-hidden="true">
+        <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="58" width="15" height="2" fill="#E91E8C" opacity="0.6"></rect>
+            <rect x="20" y="56" width="15" height="4" fill="#E91E8C" opacity="0.7"></rect>
+            <rect x="40" y="52" width="15" height="8" fill="#E91E8C" opacity="0.8"></rect>
+            <rect x="60" y="46" width="15" height="14" fill="#E91E8C" opacity="0.9"></rect>
+            <rect x="80" y="38" width="15" height="22" fill="#E91E8C" opacity="1"></rect>
+            <rect x="100" y="30" width="15" height="30" fill="#E91E8C" opacity="1"></rect>
+            <rect x="120" y="24" width="15" height="36" fill="#E91E8C" opacity="1"></rect>
+            <rect x="140" y="20" width="15" height="40" fill="#E91E8C" opacity="1"></rect>
+            <rect x="160" y="18" width="15" height="42" fill="#E91E8C" opacity="1"></rect>
+            <rect x="180" y="20" width="15" height="40" fill="#E91E8C" opacity="1"></rect>
+            <rect x="200" y="24" width="15" height="36" fill="#E91E8C" opacity="1"></rect>
+            <rect x="220" y="30" width="15" height="30" fill="#E91E8C" opacity="1"></rect>
+            <rect x="240" y="38" width="15" height="22" fill="#E91E8C" opacity="0.9"></rect>
+            <rect x="260" y="46" width="15" height="14" fill="#E91E8C" opacity="0.8"></rect>
+            <rect x="280" y="52" width="15" height="8" fill="#E91E8C" opacity="0.7"></rect>
+            <rect x="300" y="56" width="15" height="4" fill="#E91E8C" opacity="0.6"></rect>
+            <rect x="320" y="58" width="15" height="2" fill="#E91E8C" opacity="0.5"></rect>
+            <rect x="340" y="58" width="15" height="2" fill="#E91E8C" opacity="0.4"></rect>
+            <rect x="360" y="57" width="15" height="3" fill="#E91E8C" opacity="0.5"></rect>
+            <rect x="380" y="54" width="15" height="6" fill="#E91E8C" opacity="0.6"></rect>
+            <rect x="400" y="48" width="15" height="12" fill="#E91E8C" opacity="0.7"></rect>
+            <rect x="420" y="40" width="15" height="20" fill="#E91E8C" opacity="0.8"></rect>
+            <rect x="440" y="32" width="15" height="28" fill="#E91E8C" opacity="0.9"></rect>
+            <rect x="460" y="26" width="15" height="34" fill="#E91E8C" opacity="1"></rect>
+            <rect x="480" y="22" width="15" height="38" fill="#E91E8C" opacity="1"></rect>
+            <rect x="500" y="20" width="15" height="40" fill="#E91E8C" opacity="1"></rect>
+            <rect x="520" y="22" width="15" height="38" fill="#E91E8C" opacity="1"></rect>
+            <rect x="540" y="26" width="15" height="34" fill="#E91E8C" opacity="1"></rect>
+            <rect x="560" y="32" width="15" height="28" fill="#E91E8C" opacity="0.9"></rect>
+            <rect x="580" y="40" width="15" height="20" fill="#E91E8C" opacity="0.8"></rect>
+            <rect x="600" y="48" width="15" height="12" fill="#E91E8C" opacity="0.7"></rect>
+            <rect x="620" y="54" width="15" height="6" fill="#E91E8C" opacity="0.6"></rect>
+            <rect x="640" y="57" width="15" height="3" fill="#E91E8C" opacity="0.5"></rect>
+            <rect x="660" y="58" width="15" height="2" fill="#E91E8C" opacity="0.4"></rect>
+            <rect x="680" y="58" width="15" height="2" fill="#E91E8C" opacity="0.5"></rect>
+            <rect x="700" y="56" width="15" height="4" fill="#E91E8C" opacity="0.6"></rect>
+            <rect x="720" y="52" width="15" height="8" fill="#E91E8C" opacity="0.7"></rect>
+            <rect x="740" y="46" width="15" height="14" fill="#E91E8C" opacity="0.8"></rect>
+            <rect x="760" y="38" width="15" height="22" fill="#E91E8C" opacity="0.9"></rect>
+            <rect x="780" y="30" width="15" height="30" fill="#E91E8C" opacity="1"></rect>
+            <rect x="800" y="24" width="15" height="36" fill="#E91E8C" opacity="1"></rect>
+            <rect x="820" y="20" width="15" height="40" fill="#E91E8C" opacity="1"></rect>
+            <rect x="840" y="18" width="15" height="42" fill="#E91E8C" opacity="1"></rect>
+            <rect x="860" y="20" width="15" height="40" fill="#E91E8C" opacity="1"></rect>
+            <rect x="880" y="24" width="15" height="36" fill="#E91E8C" opacity="1"></rect>
+            <rect x="900" y="30" width="15" height="30" fill="#E91E8C" opacity="1"></rect>
+            <rect x="920" y="38" width="15" height="22" fill="#E91E8C" opacity="0.9"></rect>
+            <rect x="940" y="46" width="15" height="14" fill="#E91E8C" opacity="0.8"></rect>
+            <rect x="960" y="52" width="15" height="8" fill="#E91E8C" opacity="0.7"></rect>
+            <rect x="980" y="56" width="15" height="4" fill="#E91E8C" opacity="0.6"></rect>
+            <rect x="1000" y="58" width="15" height="2" fill="#E91E8C" opacity="0.5"></rect>
+            <rect x="1020" y="58" width="15" height="2" fill="#E91E8C" opacity="0.4"></rect>
+            <rect x="1040" y="57" width="15" height="3" fill="#E91E8C" opacity="0.5"></rect>
+            <rect x="1060" y="54" width="15" height="6" fill="#E91E8C" opacity="0.6"></rect>
+            <rect x="1080" y="48" width="15" height="12" fill="#E91E8C" opacity="0.7"></rect>
+            <rect x="1100" y="40" width="15" height="20" fill="#E91E8C" opacity="0.8"></rect>
+            <rect x="1120" y="32" width="15" height="28" fill="#E91E8C" opacity="0.9"></rect>
+            <rect x="1140" y="26" width="15" height="34" fill="#E91E8C" opacity="1"></rect>
+            <rect x="1160" y="22" width="15" height="38" fill="#E91E8C" opacity="1"></rect>
+            <rect x="1180" y="20" width="15" height="40" fill="#E91E8C" opacity="1"></rect>
         </svg>
     </div>
 </section>
