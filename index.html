@@ -813,6 +813,219 @@
 /* ZAPPY_POSTGEN_GUARD_HERO_TYPO:בית-hero (index-hero) — stripped 1 jarring hero headline effect(s) */
 
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-services-section {
+  background-color: #0A0A0F;
+  background-image: 
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 60px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 60px);
+  color: var(--text-light);
+  padding: 100px 16px 120px;
+  position: relative;
+  overflow: hidden;
+  direction: rtl;
+}
+
+.index-services-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Header */
+.index-services-section__header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.index-services-section__title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: #FFFFFF;
+  margin: 0 0 16px 0;
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  text-align: center;
+}
+
+.index-services-section__subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #8A8A9A;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Services Grid */
+.index-services-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-bottom: 56px;
+  direction: rtl;
+}
+
+/* Card */
+.index-services-section__card {
+  background: #111118;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.07);
+  padding: 2.5rem 1.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.5);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+
+.index-services-section__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.8), 0 0 30px rgba(233,30,140,0.15);
+}
+
+.index-services-section__card-accent {
+  position: absolute;
+  top: 0;
+  inset-inline-start: 20%;
+  inset-inline-end: 20%;
+  height: 3px;
+  background: linear-gradient(90deg, #E91E8C, #00D4FF);
+  border-radius: 0 0 4px 4px;
+  opacity: 0.8;
+}
+
+.index-services-section__card-icon {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 24px;
+  color: #E91E8C;
+  transition: color 0.3s ease, filter 0.3s ease;
+}
+
+.index-services-section__card:hover .index-services-section__card-icon {
+  color: #00D4FF;
+  filter: drop-shadow(0 0 12px rgba(0, 212, 255, 0.6));
+}
+
+.index-services-section__card-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.index-services-section__card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #FFFFFF;
+  margin: 0 0 12px 0;
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+  text-align: center;
+}
+
+.index-services-section__card-text {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #8A8A9A;
+  margin: 0;
+  text-align: center;
+  max-width: 320px;
+}
+
+/* CTA */
+.index-services-section__cta {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.index-services-section__btn {
+  background: linear-gradient(135deg, #E91E8C 0%, #FF2D78 100%);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  font-family: 'Assistant', 'Heebo', Arial, sans-serif;
+}
+
+.index-services-section__btn:hover {
+  box-shadow: 0 0 30px rgba(233,30,140,0.5), 0 0 60px rgba(233,30,140,0.2);
+  transform: translateY(-2px);
+}
+
+/* Waveform Decoration */
+.index-services-section__waveform {
+  position: absolute;
+  bottom: 0;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 120px;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.35;
+}
+
+.index-services-section__waveform svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .index-services-section {
+    padding: 80px 16px 100px;
+  }
+
+  .index-services-section__header {
+    margin-bottom: 48px;
+  }
+
+  .index-services-section__title {
+    font-size: 1.8rem;
+  }
+
+  .index-services-section__grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
+  }
+
+  .index-services-section__card {
+    padding: 2rem 1.25rem 1.5rem;
+  }
+
+  .index-services-section__card-text {
+    max-width: 100%;
+  }
+
+  .index-services-section__waveform {
+    height: 80px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .index-services-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+</style>
     <style id="zappy-critical-above-fold-css">
 html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none;margin:0;padding:0}.navbar a,.nav-menu a,#navMenu a,.navbar .nav-links a{color:inherit;text-decoration:none}.navbar .sub-menu,.nav-menu .sub-menu,#navMenu .sub-menu{display:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.zappy-preview-empty-store-cta{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}.zappy-catalog-menu{background:var(--surface-color,var(--surface,linear-gradient(135deg,#f8f9fa 0%,#fff 100%)));border-bottom:1px solid var(--border-color,#e5e7eb);padding:0;position:sticky;top:0;z-index:90}.zappy-catalog-menu[dir=rtl],.zappy-catalog-menu.rtl{direction:rtl}.zappy-catalog-menu[dir=ltr],.zappy-catalog-menu.ltr{direction:ltr}.catalog-menu-container{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 24px;overflow:visible}.catalog-menu-categories,.catalog-menu-list{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.catalog-menu-item{display:inline-flex;align-items:center;padding:8px 16px;font-size:14px;font-weight:500;color:var(--text-color,var(--text,#374151));text-decoration:none;border-radius:20px;white-space:nowrap}.catalog-menu-all{background:var(--primary-color,var(--primary,#111));color:var(--text-light,#fff)!important}.catalog-menu-parent{position:relative;display:inline-flex;align-items:center}.catalog-menu-trigger{display:inline-flex;align-items:center;gap:6px}.catalog-menu-chevron{flex-shrink:0}.catalog-menu-parent>.sub-menu{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden}.hero-section,.index-hero-section{min-height:560px}section[data-hero-type*="fullscreen"]{min-height:100vh}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"],section[data-hero-type*="fullscreen"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
 
@@ -1475,170 +1688,76 @@ body:has(.zappy-announcement-bar) main > section[class*="hero"]:first-of-type {
   </div>
 </section>
 
-<section data-band-index="1" id="services" class="index-services-section" data-layout-spec="בית-services" dir="rtl" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="1.4000000000000001s">
-  <div class="index-services-section__container" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="1.5s">
-    <!-- Intro Block -->
-    <div class="index-services-section__intro" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="1.6s">
-      <span class="index-services-section__label" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="1.7000000000000002s">השירותים שלנו</span>
-      <h2 class="index-services-section__title" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="1.8s">הפקה מוזיקלית ברמה הגבוהה ביותר</h2>
-      <p class="index-services-section__subtitle" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="1.9000000000000001s">מהקלטה ועיבוד ועד למיקס ומאסטרינג – אנחנו מעניקים לסאונד שלכם את החיים שמגיעים לו, באווירה מקצועית ונטולת פשרות.</p>
+<section class="index-services-section" data-layout-spec="בית-services" id="services">
+  <div class="index-services-section__container">
+    <!-- Section Header -->
+    <div class="index-services-section__header">
+      <h2 class="index-services-section__title">השירותים שלנו</h2>
+      <p class="index-services-section__subtitle">מהקלטה ועד מאסטרינג — כל מה שצריך כדי להפיק סאונד ברמה עולמית תחת קורת גג אחת</p>
     </div>
 
     <!-- Services Grid -->
-    <div class="index-services-section__grid" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="2s">
+    <div class="index-services-section__grid">
       
-      <!-- Card 1: Dominant - Recording (Large) -->
-      <article class="index-services-section__card index-services-section__card--large index-services-section__card--recording" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="2.1s">
-        <div class="index-services-section__card-accent" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="2.2s"></div>
-        <div class="index-services-section__card-icon" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="2.3000000000000003s">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"></circle>
-            <path d="M12 1V5M12 19V23M4.22 4.22L7.05 7.05M16.95 16.95L19.78 19.78M1 12H5M19 12H23M4.22 19.78L7.05 16.95M16.95 7.05L19.78 4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      <!-- Card 1: Recording -->
+      <article class="index-services-section__card">
+        <div class="index-services-section__card-accent"></div>
+        <div class="index-services-section__card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M24 14V24L30 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18 8H30" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
           </svg>
         </div>
-        <h3 class="index-services-section__card-title" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="2.4000000000000004s">הקלטה מקצועית</h3>
-        <p class="index-services-section__card-text" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="2.5s">סשן הקלטות מדויק ונקי עם ציוד אנלוגי ודיגיטלי מתקדם. אנחנו דואגים שכל טייק יישמע עוצמתי, חם ומלא בנוכחות – בדיוק כמו שדמיינתם.</p>
-        <div class="index-services-section__card-waveform" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="2.6s">
-          <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0" y="10" width="3" height="4" rx="1" fill="currentColor" opacity="0.9"></rect>
-            <rect x="6" y="6" width="3" height="12" rx="1" fill="currentColor" opacity="0.8"></rect>
-            <rect x="12" y="2" width="3" height="20" rx="1" fill="currentColor" opacity="1"></rect>
-            <rect x="18" y="8" width="3" height="8" rx="1" fill="currentColor" opacity="0.7"></rect>
-            <rect x="24" y="4" width="3" height="16" rx="1" fill="currentColor" opacity="0.9"></rect>
-            <rect x="30" y="10" width="3" height="4" rx="1" fill="currentColor" opacity="0.6"></rect>
-            <rect x="36" y="3" width="3" height="18" rx="1" fill="currentColor" opacity="0.8"></rect>
-            <rect x="42" y="7" width="3" height="10" rx="1" fill="currentColor" opacity="0.7"></rect>
-            <rect x="48" y="1" width="3" height="22" rx="1" fill="currentColor" opacity="1"></rect>
-            <rect x="54" y="9" width="3" height="6" rx="1" fill="currentColor" opacity="0.5"></rect>
-            <rect x="60" y="5" width="3" height="14" rx="1" fill="currentColor" opacity="0.8"></rect>
-            <rect x="66" y="11" width="3" height="2" rx="1" fill="currentColor" opacity="0.4"></rect>
-            <rect x="72" y="4" width="3" height="16" rx="1" fill="currentColor" opacity="0.9"></rect>
-            <rect x="78" y="8" width="3" height="8" rx="1" fill="currentColor" opacity="0.6"></rect>
-            <rect x="84" y="2" width="3" height="20" rx="1" fill="currentColor" opacity="1"></rect>
-            <rect x="90" y="6" width="3" height="12" rx="1" fill="currentColor" opacity="0.8"></rect>
-            <rect x="96" y="10" width="3" height="4" rx="1" fill="currentColor" opacity="0.7"></rect>
-            <rect x="102" y="3" width="3" height="18" rx="1" fill="currentColor" opacity="0.9"></rect>
-            <rect x="108" y="7" width="3" height="10" rx="1" fill="currentColor" opacity="0.6"></rect>
-            <rect x="114" y="5" width="3" height="14" rx="1" fill="currentColor" opacity="0.8"></rect>
-          </svg>
-        </div>
+        <h3 class="index-services-section__card-title">הקלטה מקצועית</h3>
+        <p class="index-services-section__card-text">ציוד אנלוגי ודיגיטלי מתקדם, מיקרופונים ברמת שידור וחדר אקוסטי מהונדס. בין אם אתה זמר, להקה או פודקאסטר — הסאונד שלך יישמע נקי, חם ונוכח.</p>
       </article>
 
-      <!-- Card 2: Vocal Production (Compact) -->
-      <article class="index-services-section__card index-services-section__card--compact index-services-section__card--vocal" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="2.7s">
-        <div class="index-services-section__card-accent" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="2.8000000000000003s"></div>
-        <div class="index-services-section__card-icon" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="2.9000000000000004s">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 1C10.34 1 9 2.34 9 4V12C9 13.66 10.34 15 12 15C13.66 15 15 13.66 15 12V4C15 2.34 13.66 1 12 1Z" stroke="currentColor" stroke-width="2"></path>
-            <path d="M19 10V12C19 15.87 15.87 19 12 19C8.13 19 5 15.87 5 12V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M12 19V23M8 23H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+      <!-- Card 2: Arrangements & Production -->
+      <article class="index-services-section__card">
+        <div class="index-services-section__card-accent"></div>
+        <div class="index-services-section__card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="8" y="16" width="6" height="16" rx="1" stroke="currentColor" stroke-width="2"></rect>
+            <rect x="18" y="12" width="6" height="24" rx="1" stroke="currentColor" stroke-width="2"></rect>
+            <rect x="28" y="8" width="6" height="32" rx="1" stroke="currentColor" stroke-width="2"></rect>
+            <rect x="38" y="14" width="6" height="20" rx="1" stroke="currentColor" stroke-width="2"></rect>
           </svg>
         </div>
-        <h3 class="index-services-section__card-title" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="3s">הפקת שירה</h3>
-        <p class="index-services-section__card-text" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="3.1s">ליווי צמוד, הכוונה קולית והפקה ווקאלית שמביאה את הרגש המדויק. נדאג שהקול שלכם יקבל את הבמה הראויה לו.</p>
+        <h3 class="index-services-section__card-title">עיבודים והפקה מוזיקלית</h3>
+        <p class="index-services-section__card-text">עם ניסיון של למעלה מ-13 שנה, יהודה בן משה בונה עיבודים שמשרתים את השיר. הפקה מוזיקלית מלאה, תכנותים, כלי נשיפה ומיתרים — הכול כדי שהמוזיקה שלך תישמע בדיוק כמו שדמיינת.</p>
       </article>
 
-      <!-- Card 3: Arrangements (Compact) -->
-      <article class="index-services-section__card index-services-section__card--compact index-services-section__card--arrangements" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="3.2s">
-        <div class="index-services-section__card-accent" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="3.3000000000000003s"></div>
-        <div class="index-services-section__card-icon" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="3.4000000000000004s">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M9 18V5L21 3V16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            <circle cx="6" cy="18" r="3" stroke="currentColor" stroke-width="2"></circle>
-            <circle cx="18" cy="16" r="3" stroke="currentColor" stroke-width="2"></circle>
+      <!-- Card 3: Mix & Master -->
+      <article class="index-services-section__card">
+        <div class="index-services-section__card-accent"></div>
+        <div class="index-services-section__card-icon">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2"></circle>
+            <path d="M24 6V42" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M6 24H42" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            <circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2"></circle>
+            <circle cx="24" cy="24" r="2" fill="currentColor"></circle>
           </svg>
         </div>
-        <h3 class="index-services-section__card-title" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="3.5s">עיבודים מוזיקליים</h3>
-        <p class="index-services-section__card-text" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="3.6s">בניית עיבודים עשירים, מדויקים ובעלי אופי ייחודי. נהפוך סקיצה פשוטה להפקה שלמה ומהודקת.</p>
-      </article>
-
-      <!-- Card 4: Podcast (Compact) -->
-      <article class="index-services-section__card index-services-section__card--compact index-services-section__card--podcast" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="3.7s">
-        <div class="index-services-section__card-accent" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="3.8000000000000003s"></div>
-        <div class="index-services-section__card-icon" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="3.9000000000000004s">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 11C3 6.03 7.03 2 12 2C16.97 2 21 6.03 21 11V15C21 16.1 20.1 17 19 17H18C16.9 17 16 16.1 16 15V11C16 9.9 16.9 9 18 9H19C19 6.24 16.76 4 14 4H10C7.24 4 5 6.24 5 9H6C7.1 9 8 9.9 8 11V15C8 16.1 7.1 17 6 17H5C3.9 17 3 16.1 3 15V11Z" stroke="currentColor" stroke-width="2"></path>
-            <path d="M8 21H16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M12 17V21" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-          </svg>
-        </div>
-        <h3 class="index-services-section__card-title" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="4s">הקלטת פודקאסטים</h3>
-        <p class="index-services-section__card-text" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="4.1000000000000005s">סאונד נקי ומקצועי לפודקאסט שלכם. נדאג שהמילים שלכם יישמעו צלולות ומדויקות בכל פרק.</p>
-      </article>
-
-      <!-- Card 5: Band & Album (Large) -->
-      <article class="index-services-section__card index-services-section__card--large index-services-section__card--band" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="4.2s">
-        <div class="index-services-section__card-accent" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="4.3s"></div>
-        <div class="index-services-section__card-icon" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="4.4s">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 1L9 9H1L7 14L5 22L12 17L19 22L17 14L23 9H15L12 1Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
-          </svg>
-        </div>
-        <h3 class="index-services-section__card-title" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="4.5s">הקלטות להקות ואלבומים</h3>
-        <p class="index-services-section__card-text" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="4.6000000000000005s">מפגשי הקלטה מלאים ללהקות ואומנים. אנחנו מנהלים את הסשן מתחילתו ועד סופו, כך שכל כלי וכל קול מקבלים את המקום הנכון במיקס.</p>
-        <div class="index-services-section__card-waveform" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="4.7s">
-          <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0" y="8" width="3" height="8" rx="1" fill="currentColor" opacity="0.6"></rect>
-            <rect x="6" y="4" width="3" height="16" rx="1" fill="currentColor" opacity="0.9"></rect>
-            <rect x="12" y="10" width="3" height="4" rx="1" fill="currentColor" opacity="0.5"></rect>
-            <rect x="18" y="2" width="3" height="20" rx="1" fill="currentColor" opacity="1"></rect>
-            <rect x="24" y="6" width="3" height="12" rx="1" fill="currentColor" opacity="0.8"></rect>
-            <rect x="30" y="9" width="3" height="6" rx="1" fill="currentColor" opacity="0.4"></rect>
-            <rect x="36" y="3" width="3" height="18" rx="1" fill="currentColor" opacity="0.9"></rect>
-            <rect x="42" y="7" width="3" height="10" rx="1" fill="currentColor" opacity="0.7"></rect>
-            <rect x="48" y="1" width="3" height="22" rx="1" fill="currentColor" opacity="1"></rect>
-            <rect x="54" y="5" width="3" height="14" rx="1" fill="currentColor" opacity="0.8"></rect>
-            <rect x="60" y="11" width="3" height="2" rx="1" fill="currentColor" opacity="0.3"></rect>
-            <rect x="66" y="4" width="3" height="16" rx="1" fill="currentColor" opacity="0.9"></rect>
-            <rect x="72" y="8" width="3" height="8" rx="1" fill="currentColor" opacity="0.6"></rect>
-            <rect x="78" y="2" width="3" height="20" rx="1" fill="currentColor" opacity="1"></rect>
-            <rect x="84" y="6" width="3" height="12" rx="1" fill="currentColor" opacity="0.7"></rect>
-            <rect x="90" y="10" width="3" height="4" rx="1" fill="currentColor" opacity="0.5"></rect>
-            <rect x="96" y="3" width="3" height="18" rx="1" fill="currentColor" opacity="0.8"></rect>
-            <rect x="102" y="7" width="3" height="10" rx="1" fill="currentColor" opacity="0.6"></rect>
-            <rect x="108" y="5" width="3" height="14" rx="1" fill="currentColor" opacity="0.9"></rect>
-            <rect x="114" y="9" width="3" height="6" rx="1" fill="currentColor" opacity="0.4"></rect>
-          </svg>
-        </div>
-      </article>
-
-      <!-- Card 6: Events (Compact) -->
-      <article class="index-services-section__card index-services-section__card--compact index-services-section__card--events" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="4.800000000000001s">
-        <div class="index-services-section__card-accent" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="4.9s"></div>
-        <div class="index-services-section__card-icon" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="5s">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2"></rect>
-            <path d="M16 2V6M8 2V6M3 10H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M8 14H8.01M12 14H12.01M16 14H16.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-          </svg>
-        </div>
-        <h3 class="index-services-section__card-title" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="5.1000000000000005s">אירועים ובר מצווה</h3>
-        <p class="index-services-section__card-text" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="5.2s">תיעוד מקצועי של אירועים חיים. אנחנו מגיעים אליכם עם ציוד נייד ומקליטים כל רגע חשוב בסאונד מושלם.</p>
+        <h3 class="index-services-section__card-title">מיקס ומאסטרינג</h3>
+        <p class="index-services-section__card-text">עיבוד מדויק של כל ערוץ, איזון דינמי, צבע אנלוגי חם ומאסטרינג שמוכן לרמה הבינלאומית. אנחנו דואגים שהמיקס שלך יתורגם נהדר בכל פלטפורמה — מספוטיפיי ועד ויניל.</p>
       </article>
 
     </div>
-  </div>
 
-  <!-- Bottom Divider: Diagonal Clip-Path with Cyan Grid & Pink Glow -->
-  <div class="index-services-section__divider-wrapper" data-zappy-animate="fade-in" data-zappy-anim-duration="0.8s" data-zappy-anim-delay="5.300000000000001s">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <linearGradient id="dividerGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="var(--secondary)" stop-opacity="0.8"></stop>
-          <stop offset="100%" stop-color="var(--primary)" stop-opacity="0.8"></stop>
-        </linearGradient>
-        <pattern id="cyanGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-          <path d="M 40 0 L 0 40" fill="#0A0A0F" stroke="var(--secondary)" stroke-width="0.5" stroke-opacity="0.3"></path>
-        </pattern>
-      </defs>
-      <!-- Diagonal Clip Path Fill -->
-      <path d="M0,120 L0,0 L1200,120 Z" fill="#0A0A0F"></path>
-      <!-- Cyan Grid Overlay -->
-      <path d="M0,120 L0,0 L1200,120 Z" fill="#0A0A0F"></path>
-      <!-- Pink Glow Sweep Line -->
-      <path d="M0,120 L1200,120" stroke="url(#dividerGlow)" stroke-width="3" fill="#0A0A0F"></path>
-      <path d="M0,120 L1200,120" stroke="var(--primary)" stroke-width="8" fill="#0A0A0F" stroke-opacity="0.15" filter="blur(4px)"></path>
-    </svg>
+    <!-- CTA Row -->
+    <div class="index-services-section__cta">
+      <a href="/contact" class="index-services-section__btn btn-primary">דברו איתנו על הפרויקט שלכם</a>
+    </div>
+
+    <!-- Decorative Waveform Motif -->
+    <div class="index-services-section__waveform" aria-hidden="true">
+      <svg data-no-icon-edit="true" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,60 L20,50 L40,70 L60,40 L80,80 L100,30 L120,70 L140,50 L160,90 L180,20 L200,60 L220,45 L240,75 L260,35 L280,85 L300,25 L320,65 L340,55 L360,95 L380,15 L400,60 L420,50 L440,70 L460,40 L480,80 L500,30 L520,70 L540,50 L560,90 L580,20 L600,60 L620,45 L640,75 L660,35 L680,85 L700,25 L720,65 L740,55 L760,95 L780,15 L800,60 L820,50 L840,70 L860,40 L880,80 L900,30 L920,70 L940,50 L960,90 L980,20 L1000,60 L1020,45 L1040,75 L1060,35 L1080,85 L1100,25 L1120,65 L1140,55 L1160,95 L1180,15 L1200,60" stroke="#E91E8C" stroke-width="2" fill="none" opacity="0.3"></path>
+      </svg>
+    </div>
+
   </div>
 </section>
 
